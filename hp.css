@@ -1,3 +1,7 @@
+body{
+    overflow-y: hidden;
+}
+
 div{
     -webkit-text-stroke-color: rgb(129, 98, 39);
     -webkit-text-stroke-width: 1px;
@@ -55,7 +59,7 @@ div{
         z-index: 1;
         font-size: 22pt;
         top: 90px;
-        left: 35px;
+        left: 70px;
         background-color: rgba(219, 188, 131, 0.623);
     }
 }
@@ -64,17 +68,18 @@ div{
         position: fixed;
         z-index: 99;
         font-size: 20pt;
-        top: 250px;
-        left: 30px;
+        top: 360px;
+        left: 40px;
     }
 }
 @media(max-width: 480px){
     .b{
         position: fixed;
         z-index: 99;
+        width: 400px;
         font-size: 20pt;
-        top: 250px;
-        left: 255px;
+        top: 360px;
+        left: 285px;
 
     }
 }
@@ -83,8 +88,8 @@ div{
         position: fixed;
         z-index: 99;
         font-size: 20pt;
-        top: 460px;
-        left: 85px;
+        top: 630px;
+        left: 100px;
 
     }
 }
@@ -93,8 +98,8 @@ div{
         position: fixed;
         z-index: 99;
         font-size: 20pt;
-        top: 465px;
-        left: 273px;
+        top: 630px;
+        left: 310px;
 
     }
 }
@@ -109,8 +114,8 @@ div{
         z-index: 0;
         top: 0px;
         left: 0px;
-        width: 375px;
-        height: 670px;
+        width: 420px;
+        height: 100vh;
 
     }
 }
